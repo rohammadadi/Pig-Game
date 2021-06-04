@@ -1,0 +1,2 @@
+# Pig-Game
+This is a 2 player dice game. The two players can input their profile picture, name and a cool sentence that will appear on the screen if they win. Whatever number you role gets added to your CURRENT and you can hold the dice as much as you want, but if you role the number 1 your CURRENT will be reset. If you decide not to role the dice anymore, you should simply press hold and you CURRENT will be added to your SCORE.
