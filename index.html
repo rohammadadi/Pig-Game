@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="player player--0 active">
+        <img class="picturep1 pic" id="picturep1" src="Nopic.png">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label current0">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <section class="player player--1">
+        <img class="picturep2 pic" id="picturep2" src="Nopic.png">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label current1">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+
+      <img src="dice-5.png" alt="Playing dice" class="dice" />
+      <button class="btn btn--new">🔄 New game</button>
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <button class="btn btn--hold">📥 Hold</button>
+    </main>
+    <div class="Modal">
+      <p class="p1username">Player 1</p>
+      <input id="p1username" type="text" name="Username" placeholder="Choose a username..."  />
+      <p class="p1text">Your cool sentence if you win</p>
+      <input id="p1text" type="text" name="Username" placeholder="Choose a username..."  />
+      <br>
+      <img class="img1" id="img1" src="girl.png">
+      <img class="img2" id="img2" src="messi.jpg">
+      <img class="img3" id="img3" src="Phase4.jpg">
+      <img class="img4" id="img4" src="Tiger.png">
+      <img class="img9" id="img9" src="Wolf.jpg">
+      <img class="img10" id="img10" src="Gear5.png">
+      <img class="img13" id="img13" src="Galaxy.jpg">
+      <img class="img15" id="img15" src="Ronaldo.jpg">
+      <img class="img17" id="img17" src="ballet.jpg">
+      <p class="p2username">Player 2</p>
+      <input id="p2username" type="text" name="Username" placeholder="Choose a username..."  />
+      <p class="p2text">Your cool sentence if you win</p>
+      <input id="p2text" type="text" name="Username" placeholder="Choose a username..."  />
+      <br>
+      <img class="img5" id="img5" src="girl.png">
+      <img class="img6" id="img6" src="messi.jpg">
+      <img class="img7" id="img7" src="Phase4.jpg">
+      <img class="img8" id="img8" src="Tiger.png">
+      <img class="img11" id="img11" src="Wolf.jpg">
+      <img class="img12" id="img12" src="Gear5.png">
+      <img class="img14" id="img14" src="Galaxy.jpg">
+      <img class="img16" id="img16" src="Ronaldo.jpg">
+      <img class="img19" id="img19" src="ballet.jpg">
+      <br>
+      <input type="submit" value="Done!" class="done" />
+    </div>
+    <div class="winnerM">
+      <p class="textw">Congratulation!!</p>
+      <p class="winnerp textw" id="winnerp"></p>
+      <p class="textw"> is the winner</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
